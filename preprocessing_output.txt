@@ -1,0 +1,40 @@
+Original shape: (10000, 50)
+
+Missing values:
+ Initial_days          0
+Additional_charges    0
+Age                   0
+dtype: int64
+
+Duplicate rows in full dataset: 0
+
+Summary before scaling:
+       Initial_days  Additional_charges       Age
+count      10000.00            10000.00  10000.00
+mean          34.46            12934.53     53.51
+std           26.31             6542.60     20.64
+min            1.00             3125.70     18.00
+25%            7.90             7986.49     36.00
+50%           35.84            11573.98     53.00
+75%           61.16            15626.49     71.00
+max           71.98            30566.07     89.00
+
+Correlation matrix:
+                    Initial_days  Additional_charges   Age  TotalCharge
+Initial_days                1.00                0.00  0.02         0.99
+Additional_charges          0.00                1.00  0.72         0.03
+Age                         0.02                0.72  1.00         0.02
+TotalCharge                 0.99                0.03  0.02         1.00
+
+Summary after scaling:
+       Initial_days  Additional_charges       Age
+count      10000.00            10000.00  10000.00
+mean          -0.00               -0.00      0.00
+std            1.00                1.00      1.00
+min           -1.27               -1.50     -1.72
+25%           -1.01               -0.76     -0.85
+50%            0.05               -0.21     -0.02
+75%            1.02                0.41      0.85
+max            1.43                2.70      1.72
+
+Saved

@@ -1,0 +1,22 @@
+Evaluation scores by k:
+ k  inertia  silhouette
+ 2  17804.8      0.3527
+ 3  12349.9      0.3770
+ 4   8611.3      0.4146
+ 5   6654.6      0.4176
+ 6   5280.6      0.4388
+ 7   4514.6      0.4315
+ 8   3775.7      0.4250
+ 9   3315.8      0.4269
+10   2887.3      0.4281
+
+Final model: k = 4
+Silhouette score: 0.4146
+
+Clusters profiles:
+         Patients  Avg_Initial_days  Avg_Additional_charges  Avg_Age  Readmission_rate
+Cluster                                                                               
+0            2682              9.19                 8390.13    37.29              0.00
+1            2601             59.72                 8454.00    37.43              0.73
+2            2316              9.25                18106.06    71.59              0.00
+3            2401             59.62                17876.09    71.61              0.74
