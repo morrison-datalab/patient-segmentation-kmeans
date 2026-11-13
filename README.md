@@ -1,6 +1,6 @@
 # Patient Segmentation with K-Means Clustering
 
-A k-means clustering analysis that groups 10,000 hospital patients by length of stay, additional charges, and age to support capacity and staffing planning. Built in Python with pandas and scikit-learn as part of the WGU M.S. Data Analytics program.
+A k-means clustering analysis that groups 10,000 hospital patients by length of stay, additional charges, and age to support capacity and staffing planning. Built in Python with pandas and scikit-learn as part of the WGU D.S. program
 
 ## Business Problem
 
